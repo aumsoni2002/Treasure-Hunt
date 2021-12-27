@@ -1,0 +1,32 @@
+/*
+	==================================================
+	Workshop #4 (Part-1): REFLECTION
+	==================================================
+	Name   : Aum Amitkumar Soni
+	ID     : 150628204
+	Email  : aasoni2@myseneca.ca
+	Section: NFF
+*/
+
+
+--> ANSWERS
+
+1. Writing structures in our source code help us in many ways such as it makes the code more readable by writing all different datatypes in a combine form. datatypes which are in struct
+   syntax are easier to access, rewrite and maintain. one can also write english vocabulary words and characaters to name the variable so that it makes everything easy to understand.
+   In this program, i made two structures by the name 'PlayerInfo' and 'GameInfo'. The first structure has 4 datatypes and the second one has 5 datatypes. i name them in such a way 
+   that i can easily understand, what type of value and which question's value does each variable store. For instance, In 'PlayerInfo', i made 'num_lives' variable to save a number which 
+   represents how many lives does a player get in the game. Another example is that in 'GameInfo' i made a 'next_move[MAX_MOVE]' array to save a number which represents the next move of the
+   player and it is array so all the value will going to save in different index.
+
+2. To make this changes about history of games and end results, I would have to make few another arrays for saving the values of history and end result with few For loop. Firstly to print
+   all the games which are played and player's moves, i have to get access to an array which saved their value with a for loop and print them in order of the games played. Secondly assume
+   that end result means it will show how many games does the player played, in which game does he get the most treasures and most bombs. So for how many games, i would put a counter with 
+   and increament and i will the set its value to 1. every time the main loop ends it will increase the count by 1, so it will give the number of games played. now for every games's treasures
+   and bombs, i will compare each and every index of those arrays which save the values of bombs and treasures one by one and put a if statement that if the value is highest than other value 
+   it will go in and it will save that value. In the last it will automatically save the highest value.
+
+3. The part where i have to show the last move played by the player with a character and to show what does the player found on that position. For instance if the player founds a treasure than
+   the output will be different, if the player founds bomb than the output will be different. In short every positions in the game will have a different meaning and output. To put them in 
+   order i.e first was player's character than in second line, it reveals what it is on that position than '|' character and lastly numbers to show the positions. This was the part which i
+   found more difficult.      
+              
